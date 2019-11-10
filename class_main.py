@@ -1,15 +1,15 @@
-import class_gerate
-import class_moebel
+import class_appliance
+import class_furniture
 
 
 if __name__ == '__main__':
 
-    a = class_gerate.kaffemaschine() #Neue Kaffemaschine erstellt (neues Objekt)
+    a = class_appliance.kaffemaschine() #Neue Kaffemaschine erstellt (neues Objekt)
     a.kaffeKochen() #Methode Kaffekochen aufgerufen
     a.aufheizen()
-    b = class_gerate.wasserkocher()
+    b = class_appliance.wasserkocher()
     b.aufheizen()
-    c = class_moebel.unterschrank()
+    c = class_furniture.unterschrank()
     c.statusWiedergeben()
     b.eigenschaften()
     b.x = True
