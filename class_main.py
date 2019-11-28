@@ -1,16 +1,15 @@
-import class_appliance
-import class_furniture
+import class_kitchen
 
 
 if __name__ == '__main__':
 
-    a = class_appliance.kaffemaschine() #Neue Kaffemaschine erstellt (neues Objekt)
-    a.kaffeKochen() #Methode Kaffekochen aufgerufen
-    a.aufheizen()
-    b = class_appliance.wasserkocher()
-    b.aufheizen()
-    c = class_furniture.unterschrank()
-    c.statusWiedergeben()
-    b.eigenschaften()
-    b.x = True
-    b.eigenschaften()
+    myKitchen = class_kitchen.Kitchen("My Kitchen")
+    myKitchen.initialize_kitchen_from_config(myKitchen)
+
+    coffee_Machines = myKitchen.getInteractiveAppliances("coffeeMachine")
+    coffee_Machines[0].brewing()
+
+    water_heaters = myKitchen.getInteractiveAppliances("waterHeater")
+    water_heaters[0].heating()
+
+
