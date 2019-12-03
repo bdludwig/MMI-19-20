@@ -1,0 +1,48 @@
+Classifier Stream:
+    outlet_info = pylsl.StreamInfo(
+        "MMIClassifierStream",  # name
+        "list",  # type
+        2,  # channel_count
+        pylsl.IRREGULAR_RATE,  # samplerate
+        pylsl.cf_string,  # channel_format
+        "MMIID2")  # source_id
+    channels = outlet_info.desc().append_child("channels")
+    classifier_name_channel = channels.append_child("channel")
+    classifier_name_channel.append_child_value("label", "name channel")
+    classifier_name_channel.append_child_value("type", "list")
+    classifier_name_channel.append_child_value("additional_info","array of classified persons")
+    classifier_confidence_channel = channels.append_child("channel")
+    classifier_confidence_channel.append_child_value("label", "confidence channel")
+    classifier_confidence_channel.append_child_value("type", "list")
+    classifier_confidence_channel.append_child_value("additional_info","array of confidences for the classified persons")
+    outlet = pylsl.StreamOutlet(outlet_info)
+
+    Example:
+     ['["andi"]', '[0.6340588792657266]']
+
+
+Eyetracking Stream:
+    For detail stream information see: eyetracking/eyetracking/classifier_webcam.py createLSL()
+    outlet_info = pylsl.StreamInfo(
+        "MMIEyetrackingStream",  # name
+        "Eyetracking data",  # type
+        2,  # channel_count
+        pylsl.IRREGULAR_RATE,  # samplerate
+        pylsl.cf_string,  # channel_format
+        "MMIID1")  # source_id
+
+    channels = outlet_info.desc().append_child("channels")
+
+    eyeleft_channel = channels.append_child("channel")
+    eyeleft_channel.append_child_value("label","left eye channel")
+    eyeleft_channel.append_child_value("type", "left eye")
+    eyeleft_channel.append_child_value("additional_info","eyetracking data for the left eye")
+
+    eyeright_channel = channels.append_child("channel")
+    eyeright_channel.append_child_value("label","right eye channel")
+    eyeright_channel.append_child_value("type", "right eye")
+    eyeright_channel.append_child_value("additional_info","eyetracking data for the right eye")
+
+    Example:
+    ['{"aoi_hits": [["Sp\\u00fcle", 70.32480152123902], ["Arbeitsfl\\u00e4che", 79.49838702435358]], "gaze_start": [[-0.052668421987624496, -0.4551105925706151, -0.8888759113933492]], "gaze_direction": [-210.67360000000008, -1820.441610297602, -3555.50216124795]}',
+       '{"aoi_hits": [["Sp\\u00fcle", 114.06897567864486], ["Arbeitsfl\\u00e4che", 120.61169134591242]], "gaze_start": [[0.09512291206124258, -0.4638670770294668, -0.8807831551801657]], "gaze_direction": [380.4915999999999, -1855.4680728511692, -3523.132174000137]}']
