@@ -52,6 +52,11 @@
 
     },
   "tools":{
-
-    }
+    "container":
+    [
+      {"tool_id": "pot_1", "tool_type": "pot", "usage_tags": "cook;stir", "location": "U_4_0", "capacity": "2000ml"},
+      {"tool_id": "pot_2", "tool_type": "pot", "usage_tags": "cook;stir", "location": "U_1_0", "capacity": "1000ml"},
+      {"tool_id": "pan_1", "tool_type": "pan", "usage_tags": "roast;stir", "location": "U_6_0", "capacity": "500ml"}
+    ]
+  }
 }

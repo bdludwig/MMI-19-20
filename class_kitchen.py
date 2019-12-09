@@ -1,6 +1,7 @@
 import json
 import class_furniture
 import class_appliance
+import class_tools
 
 
 class Kitchen:
@@ -9,13 +10,14 @@ class Kitchen:
         self.name = name
         self.furnitureList = []
         self.applianceList = []
+        self.toolList = []
 
     @staticmethod
     def initialize_furniture(self, data):
         for key, value in data.items():
             if key == "storage":
                 for x in data["storage"]:
-                    buffer = class_furniture.furniture(x["name"], x["location"])
+                    buffer = class_furniture.Storage(x["name"], x["location"])
                     self.furnitureList.append(buffer)
 
     @staticmethod
@@ -43,8 +45,21 @@ class Kitchen:
                     self.applianceList.append(buffer)
             if key == "stove":
                 for x in data["stove"]:
-                    buffer = class_appliance.stove(x["status"],x["operable"], x["hotplate1"], x["hotplate2"], x["hotplate3"], x["hotplate4"])
+                    buffer = class_appliance.stove(x["status"], x["operable"], x["hotplate1"], x["hotplate2"],
+                                                   x["hotplate3"], x["hotplate4"])
                     self.applianceList.append(buffer)
+
+    @staticmethod
+    def initialize_tools(self, data):
+        for key, value in data.items():
+            if key == "container":
+                for x in data["container"]:
+                    item = class_tools.Container(x["tool_id"], x["tool_type"], x["usage_tags"],
+                                                   x["capacity"])
+                    self.toolList.append(item)
+                    for storage in self.furnitureList:
+                        if storage.name == x["location"]:
+                            storage.putItem(item)
 
     @staticmethod
     def initialize_kitchen_from_config(self):
@@ -53,18 +68,22 @@ class Kitchen:
 
         self.initialize_interactive_appliances(self, kitchen_config["interactiveAppliance"])
         self.initialize_furniture(self, kitchen_config["furniture"])
-
-        for x in self.applianceList:
-            print(type(x).__name__)
-
-        for x in self.furnitureList:
-            print(x.name)
+        self.initialize_tools(self, kitchen_config["tools"])
 
     def getInteractiveAppliances(self, appliance):
-        #Returns a List of the Appliances, depending on the name of the appliances
+        # Returns a List of the Appliances, depending on the name of the appliances
         appliances = []
         for x in self.applianceList:
             if type(x).__name__ == appliance:
                 appliances.append(x)
         return appliances
 
+    def getTools(self):
+        return self.toolList
+
+    def getLocationWithId(self, item_id):
+        for storage in self.furnitureList:
+            items = storage.getContent()
+            for item in items:
+                if item.tool_id == item_id:
+                    return storage.name

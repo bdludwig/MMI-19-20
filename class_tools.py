@@ -2,13 +2,14 @@
 # Beschreibung der Behälter für Lebensmittel, Gewürze etc.
 
 
-class tools:
-    def __init__(self, name, usage):
-        self.name = name
-        self.usage = usage
+class Tools:
+    def __init__(self, tool_id, tool_type, usage_tags):
+        self.tool_id = tool_id
+        self.tool_type = tool_type
+        self.usage_tags = usage_tags
 
 
-class container(tools):
-    def __init__(self, name, usage, capacity):
-        tools.__init__(self, name, usage)
+class Container(Tools):
+    def __init__(self, tool_id, tool_type, usage_tags, capacity):
+        Tools.__init__(self, tool_id, tool_type, usage_tags)
         self.capacity = capacity
