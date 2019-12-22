@@ -37,7 +37,11 @@ Requirements for reading/writing RFIDs with a Raspberry Pi:
    $ sudo python setup.py install
    $ cd ..
    ```
-    Raspberry Pi RFID RC522 lib:
+    *** The following file has already been added to this repo. ***
+    
+    Raspberry Pi RFID RC522 module - python class which handles RFID reading and writing:
+    
+    (source is a python3 fork from: https://github.com/mxgxw/MFRC522-python)
    ```bash
-   $ git clone https://github.com/mxgxw/MFRC522-python.git && cd MFRC522-python
+   $ curl -OL https://raw.githubusercontent.com/lucassarcanjo/MFRC522-python/python3-spi-updates/MFRC522.py
    ```
