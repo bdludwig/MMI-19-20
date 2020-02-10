@@ -1,0 +1,64 @@
+{
+  "interactiveAppliance": {
+    "coffeeMachine":
+    [
+      {"status": "off", "operable": "true"}
+    ],
+    "waterHeater":
+    [
+      {"status": "off", "operable": "true"}
+    ],
+    "oven":
+    [
+      {"status": "off", "operable": "true"}
+    ],
+    "dishwasher":
+    [
+      {"status": "off", "operable": "true"}
+    ],
+    "microwave":
+    [
+      {"status": "off", "operable": "true", "watt": "600"}
+    ],
+    "stove":
+    [
+      {"status": "off", "operable": "true", "hotplate1": "plate very small", "hotplate2": "plate small", "hotplate3": "plate medium", "hotplate4": "plate large"}
+    ]
+  },
+  "furniture": {
+    "storage":
+    [
+      {"name": "Besteckkasten", "location": []},
+      {"name": "Utensilienschrank", "location": []},
+      {"name": "Vorratsschrank", "location": []},
+      {"name": "Geschirrschrank", "location": []},
+      {"name": "Topfschrank", "location": []}
+    ]
+  },
+  "groceries": {
+
+    },
+  "tools":
+    [
+      {"tool_id": "319461594459", "tool_type": "Dosenoeffner", "usage_tags": "", "location": "Utensilienschrank", "is_in_location": "true"},
+      {"tool_id": "384192513797", "tool_type": "Schuessel Tomaten", "usage_tags": "", "location": "Geschirrschrank", "is_in_location": "true"},
+      {"tool_id": "112148420225", "tool_type": "Salz", "usage_tags": "", "location": "Vorratsschrank", "is_in_location": "true"},
+      {"tool_id": "858500718555", "tool_type": "Oregano", "usage_tags": "", "location": "Vorratsschrank", "is_in_location": "true"},
+      {"tool_id": "869502621128", "tool_type": "Kochloeffel", "usage_tags": "", "location": "Besteckkasten", "is_in_location": "true"},
+      {"tool_id": "1064020239013", "tool_type": "Messer", "usage_tags": "", "location":  "Besteckkasten", "is_in_location": "true"},
+      {"tool_id": "111043512305", "tool_type": "Schneidbrett", "usage_tags": "", "location":  "Utensilienschrank", "is_in_location": "true"},
+      {"tool_id": "595986814409", "tool_type": "Schuessel Gemuese", "usage_tags": "", "location":  "Geschirrschrank", "is_in_location": "true"},
+      {"tool_id": "458105427683", "tool_type": "Nudelholz", "usage_tags": "", "location":  "Utensilienschrank", "is_in_location": "true"},
+      {"tool_id": "323390938246", "tool_type": "Schuessel Salat", "usage_tags": "", "location":  "Geschirrschrank", "is_in_location": "true"},
+      {"tool_id": "103022550827", "tool_type": "Oel", "usage_tags": "", "location":  "Vorratsschrank", "is_in_location": "true"},
+      {"tool_id": "786142748451", "tool_type": "Sparschaeler Salat", "usage_tags": "", "location":  "Besteckkasten", "is_in_location": "true"},
+      {"tool_id": "987535843987", "tool_type": "Salatbesteck", "usage_tags": "", "location":  "Besteckkasten", "is_in_location": "true"},
+      {"tool_id": "796112435620", "tool_type": "Pizzaschneider", "usage_tags": "", "location":  "Besteckkasten", "is_in_location": "true"},
+      {"tool_id": "118337641715", "tool_type": "Teller", "usage_tags": "", "location":  "Geschirrschrank", "is_in_location": "true"},
+      {"tool_id": "39911334407", "tool_type": "Ruehrschuessel", "usage_tags": "", "location":  "Utensilienschrank", "is_in_location": "true"},
+      {"tool_id": "995451166718", "tool_type": "Loeffel", "usage_tags": "", "location":  "Besteckkasten", "is_in_location": "true"},
+      {"tool_id": "855499759477", "tool_type": "SchuesselGuss", "usage_tags": "", "location":  "Geschirrschrank", "is_in_location": "true"},
+      {"tool_id": "453834672099", "tool_type": "Topf", "usage_tags": "", "location":  "Topfschrank", "is_in_location": "true"},
+      {"tool_id": "718631362413", "tool_type": "Teigschaber", "usage_tags": "", "location":  "Utensilienschrank", "is_in_location": "true"}
+    ]
+}

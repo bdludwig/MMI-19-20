@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72b1fb75-d8d6-440c-9206-f3476e71461a" name="Default Changelist" comment="">
+    <list default="true" id="72b1fb75-d8d6-440c-9206-f3476e71461a" name="Default Changelist" comment="Commit Kitchen Devices Server Code and LSL Stream">
+      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/IDsMapping.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Kitchen_Config/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/LsL_Tools_Example_Code/lsl_errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/LsL_Tools_Example_Code/lsl_inlet_reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/LsL_Tools_Example_Code/lsl_receiver_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/LsL_Tools_Example_Code/lsl_sender_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/LsL_Tools_Example_Code/lsl_stream_processor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Python_Server/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Python_Server/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Read.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/LSL_Integration/lsl_broadcaster.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/LSL_Integration/lsl_receiver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/class_appliance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/class_furniture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/class_groceries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/class_interaction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/class_kitchen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/class_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/class_tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/ssh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/wpa_supplicant.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +42,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TR7ZCbSAz62WJy4zUarTeZf4fI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -49,6 +76,14 @@
       <updated>1573411107069</updated>
       <workItem from="1573411110036" duration="5764000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit Kitchen Devices Server Code and LSL Stream">
+      <created>1581367650402</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581367650402</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -66,5 +101,19 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit Kitchen Devices Server Code and LSL Stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit Kitchen Devices Server Code and LSL Stream" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1581367831540">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581367831540" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581367694209">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581367694209" />
   </component>
 </project>
