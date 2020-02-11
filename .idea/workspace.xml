@@ -2,30 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72b1fb75-d8d6-440c-9206-f3476e71461a" name="Default Changelist" comment="Commit Kitchen Devices Server Code and LSL Stream">
-      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/IDsMapping.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Kitchen_Config/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/LsL_Tools_Example_Code/lsl_errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/LsL_Tools_Example_Code/lsl_inlet_reader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/LsL_Tools_Example_Code/lsl_receiver_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/LsL_Tools_Example_Code/lsl_sender_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/LsL_Tools_Example_Code/lsl_stream_processor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Python_Server/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Python_Server/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Read.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/LSL_Integration/lsl_broadcaster.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/LSL_Integration/lsl_receiver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/class_appliance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/class_furniture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/class_groceries.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/class_interaction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/class_kitchen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/class_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/class_tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/ssh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kitchen_Devices/wpa_supplicant.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Smart_Kitchen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Smart_Kitchen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kitchen_Devices/Python_Server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kitchen_Devices/Python_Server/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kitchen_Devices/Read.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kitchen_Devices/Read.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/class_appliance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/class_appliance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/class_kitchen.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/class_kitchen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/class_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kitchen_Devices/class_main.py" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,18 +37,96 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Studium\MMI-19-20\Kitchen_Devices" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
       <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Python.Read">
+    <configuration name="Read" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Smart_Kitchen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kitchen_Devices" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kitchen_Devices/Read.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="class_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Smart_Kitchen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kitchen_Devices" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kitchen_Devices/class_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lsl_receiver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Smart_Kitchen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/LSL_Integration" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kitchen_Devices/Smart_Kitchen_Classes/LSL_Integration/lsl_receiver.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Read" />
+        <item itemvalue="Python.lsl_receiver" />
+        <item itemvalue="Python.class_main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -83,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581367650402</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update Readme">
+      <created>1581461174925</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581461174925</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +175,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit Kitchen Devices Server Code and LSL Stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit Kitchen Devices Server Code and LSL Stream" />
+    <MESSAGE value="Update Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Readme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1581367831540">

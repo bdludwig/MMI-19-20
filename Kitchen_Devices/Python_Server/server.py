@@ -6,7 +6,6 @@ import time
 import pickle
 import selectors
 
-
 class SocketServer(Thread):
 
     def __init__(self, host, port, myKitchen):
@@ -28,19 +27,19 @@ class SocketServer(Thread):
 
     def accept(self, sock, mask):
         conn, addr = sock.accept() # Should be ready
-        print('accepted', conn, 'from', addr)
+        print('accepted Connection from', addr)
         conn.setblocking(False)
         self.sel.register(conn, selectors.EVENT_READ, self.read)
 
     def read(self, conn, mask):
         data = conn.recv(1024) # Should be ready
         if data:
-            print('Recieved', repr(data), 'from', conn)
             # Do more Stuff...
             data = pickle.loads(data)
+            print('Recieved', repr(data), 'from', conn)
             self.kitchen.updateTool(data)
         else:
-            print('closing', conn)
+            # print('closing', conn)
             self.sel.unregister(conn)
             conn.close()
 

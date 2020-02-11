@@ -1,4 +1,4 @@
-import class_interaction
+import Kitchen_Devices.Smart_Kitchen_Classes.class_interaction as class_interaction
 # status = on/off; Operable = error message?
 
 

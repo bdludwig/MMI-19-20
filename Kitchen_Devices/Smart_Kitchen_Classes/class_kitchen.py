@@ -1,6 +1,6 @@
 import json
-import class_furniture
-import class_appliance
+import Kitchen_Devices.Smart_Kitchen_Classes.class_furniture as class_furniture
+import Kitchen_Devices.Smart_Kitchen_Classes.class_appliance as class_appliance
 import Kitchen_Devices.Smart_Kitchen_Classes.class_tools as tools
 
 
@@ -66,7 +66,7 @@ class Kitchen:
 
     @staticmethod
     def initialize_kitchen_from_config(self):
-        with open("../Kitchen_Config/config.json") as config:
+        with open("Kitchen_Config/config.json") as config:
             kitchen_config = json.load(config)
 
         self.initialize_interactive_appliances(self, kitchen_config["interactiveAppliance"])
@@ -101,7 +101,8 @@ class Kitchen:
             if data[0] == tool.tool_id:
                 if tool.is_in_location:
                     tool.is_in_location = False
-                    self.eventQueue.put([data[0], tool.tool_type, tool.location, "Take out"])
+                    self.eventQueue.put([data[0], tool.tool_type, data[1], "Take out"])
                 else:
                     tool.is_in_location = True
-                    self.eventQueue.put([data[0], tool.tool_type, tool.location, "Put in"])
+                    tool.location = data[1]
+                    self.eventQueue.put([data[0], tool.tool_type, data[1], "Put in"])

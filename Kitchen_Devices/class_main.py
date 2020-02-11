@@ -15,8 +15,7 @@ if __name__ == '__main__':
     event_broadcaster = lsl.LslEventBroadcaster(event_queue)
 
     while True:
-        # Loop for testing and keeping Server and Broadcast Thread alive
-        # event_queue.put(["Test1", "Test2", "Test3", "Test4"])
+        # Loop for keeping Server and Broadcast Thread alive
         time.sleep(5)
 
 
