@@ -35,3 +35,6 @@ Anleitung zum Starten des Setups:
     - Raspberry neu starten: "sudo reboot now"
 
 -> Hoffen das es funktioniert!!
+
+Replay des LSL Streams (BEISPIEL):
+python D:\Studium\MMI-19-20\LSL_Replay\lsl_replay.py D:\Studium\MMI-19-20\LSL_Replay\Lab_Recordings.xdf

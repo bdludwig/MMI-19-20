@@ -19,7 +19,7 @@ while True:
     try:
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             s.connect((HOST, PORT))
-            event = [str(1064020239013), "Geschirrschrank"]
+            event = [str(id), "Geschirrschrank"]
             data = pickle.dumps(event)
             s.sendall(data)
     except socket.error as msg:
