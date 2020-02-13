@@ -40,7 +40,7 @@
     },
   "tools":
     [
-      {"tool_id": "319461594459", "tool_type": "Knoblauchpresse", "usage_tags": "", "location": "Besteckkasten", "is_in_location": "true"},
+      {"tool_id": "319461594459", "tool_type": "Teigschaber", "usage_tags": "", "location": "Besteckkasten", "is_in_location": "true"},
       {"tool_id": "384192513797", "tool_type": "Schuessel1", "usage_tags": "", "location": "Geschirrschrank", "is_in_location": "true"},
       {"tool_id": "112148420225", "tool_type": "Salz", "usage_tags": "", "location": "Vorratsschrank", "is_in_location": "true"},
       {"tool_id": "858500718555", "tool_type": "Oregano", "usage_tags": "", "location": "Vorratsschrank", "is_in_location": "true"},
