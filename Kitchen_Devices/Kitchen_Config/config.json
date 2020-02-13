@@ -51,13 +51,13 @@
       {"tool_id": "458105427683", "tool_type": "Nudelholz", "usage_tags": "", "location": "Utensilienschrank", "is_in_location": "true"},
       {"tool_id": "323390938246", "tool_type": "Schuessel Salat", "usage_tags": "", "location": "Geschirrschrank", "is_in_location": "true"},
       {"tool_id": "103022550827", "tool_type": "Oel", "usage_tags": "", "location": "Vorratsschrank", "is_in_location": "true"},
-      {"tool_id": "786142748451", "tool_type": "Sparschaeler Salat", "usage_tags": "", "location": "Besteckkasten", "is_in_location": "true"},
-      {"tool_id": "987535843987", "tool_type": "Schuessel3", "usage_tags": "", "location": "Geschirrschrank", "is_in_location": "true"},
+      {"tool_id": "786142748451", "tool_type": "Sparschaeler", "usage_tags": "", "location": "Besteckkasten", "is_in_location": "true"},
+      {"tool_id": "987535843987", "tool_type": "Schuessel2", "usage_tags": "", "location": "Geschirrschrank", "is_in_location": "true"},
       {"tool_id": "796112435620", "tool_type": "Messer klein", "usage_tags": "", "location": "Besteckkasten", "is_in_location": "true"},
       {"tool_id": "118337641715", "tool_type": "Teller", "usage_tags": "", "location": "Geschirrschrank", "is_in_location": "true"},
       {"tool_id": "39911334407", "tool_type": "Messbecher", "usage_tags": "", "location": "Utensilienschrank", "is_in_location": "true"},
       {"tool_id": "995451166718", "tool_type": "Loeffel", "usage_tags": "", "location": "Besteckkasten", "is_in_location": "true"},
-      {"tool_id": "453834672099", "tool_type": "Schuessel2", "usage_tags": "", "location": "Geschirrschrank", "is_in_location": "true"},
+      {"tool_id": "453834672099", "tool_type": "Schuessel3", "usage_tags": "", "location": "Geschirrschrank", "is_in_location": "true"},
       {"tool_id": "855499759477", "tool_type": "Topf", "usage_tags": "", "location": "Topfschrank", "is_in_location": "true"},
       {"tool_id": "718631362413", "tool_type": "Reibe", "usage_tags": "", "location": "Besteckkasten", "is_in_location": "true"}
     ]
